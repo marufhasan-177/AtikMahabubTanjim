@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atik Mahbub Tanjim — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M9 2h6M10 2v5.2L5.5 16A3 3 0 0 0 8.2 20.5h7.6A3 3 0 0 0 18.5 16L14 7.2V2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7.5 14.5h9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      A. M. Tanjim
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero container">
+    <!-- decorative molecule motif, purely visual -->
+    <svg class="hero-motif" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="40" cy="40" r="7" fill="currentColor"/>
+      <circle cx="110" cy="25" r="10" fill="currentColor"/>
+      <circle cx="160" cy="70" r="6" fill="currentColor"/>
+      <circle cx="90" cy="95" r="12" fill="currentColor"/>
+      <circle cx="150" cy="140" r="8" fill="currentColor"/>
+      <circle cx="55" cy="150" r="6" fill="currentColor"/>
+      <line x1="40" y1="40" x2="110" y2="25" stroke="currentColor" stroke-width="2"/>
+      <line x1="110" y1="25" x2="160" y2="70" stroke="currentColor" stroke-width="2"/>
+      <line x1="110" y1="25" x2="90" y2="95" stroke="currentColor" stroke-width="2"/>
+      <line x1="90" y1="95" x2="160" y2="140" stroke="currentColor" stroke-width="2"/>
+      <line x1="90" y1="95" x2="55" y2="150" stroke="currentColor" stroke-width="2"/>
+    </svg>
+
+    <div class="hero-text">
+      <p class="hero-kicker">Chemistry Undergraduate &amp; Campus Correspondent</p>
+      <h1 class="hero-name">Atik Mahbub<br>Tanjim</h1>
+      <p class="hero-summary">
+        Chemistry undergraduate and campus correspondent with experience in
+        university news coverage, content writing, and reporting. Strong
+        communication skills and a passion for journalism, student
+        engagement, and digital media.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="https://drive.google.com/file/d/1IZigzf_Sqp4CQwXwoASq3M-AUhQZuPM5/view?usp=sharing" class="btn btn-ghost">Download CV</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <!--
+        PHOTO PLACEHOLDER (hero / profile photo)
+        Replace the src below with your own image, e.g. "images/profile.jpg"
+        Recommended: square or portrait photo, at least 500x600px.
+      -->
+      <img
+        class="hero-photo"
+        src="images/AtikMahabub.png"
+        alt="Portrait of Atik Mahbub Tanjim">
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-green">Profile</p>
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a chemistry undergraduate at Mawlana Bhashani Science and
+          Technology University with a hands-on background in campus
+          journalism. Over the past year I've covered university events,
+          conducted interviews with students and faculty, and produced
+          reports that made campus news more visible. I care about clear
+          writing, accurate reporting, and telling stories that matter to
+          the people around me.
+        </p>
+        <div class="about-facts">
+          <div class="fact">
+            <span class="fact-value">3.50</span>
+            <span class="fact-label">CGPA, B.Sc. in Chemistry</span>
+          </div>
+          <div class="fact">
+            <span class="fact-value">2</span>
+            <span class="fact-label">Newsrooms contributed to</span>
+          </div>
+          <div class="fact">
+            <span class="fact-value">2</span>
+            <span class="fact-label">Languages — Bangla &amp; English</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-gold">Career so far</p>
+      <h2 class="section-title">Professional Experience</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-period">Ongoing · 1 year</p>
+            <h3 class="timeline-role">Campus Correspondent</h3>
+            <p class="timeline-org">
+              <a href="https://ekusheysangbad.com" target="_blank" rel="noopener">Ekushey Sangbad</a>
+            </p>
+            <ul class="timeline-list">
+              <li>Cover university events, academic activities, and student affairs, gathering information and preparing news reports for publication.</li>
+              <li>Conduct interviews with students, faculty members, and university officials to ensure accurate and timely news coverage.</li>
+              <li>Contributed to increasing campus news visibility through consistent reporting and content development.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-period">3 months</p>
+            <h3 class="timeline-role">Campus Correspondent</h3>
+            <p class="timeline-org">
+              <a href="https://dailyadin.com" target="_blank" rel="noopener">Daily Adin</a>
+            </p>
+            <ul class="timeline-list">
+              <li>Reported on university programs, achievements, and social initiatives, producing clear and engaging news content.</li>
+              <li>Coordinated with editors and media teams to collect, verify, and publish news from campus activities.</li>
+              <li>Utilized strong communication and writing skills to deliver factual, audience-focused reports.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+
+      <div class="experience-cta">
+        <a href="news.html" class="btn btn-primary">Read my news coverage</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-navy">Academics</p>
+      <h2 class="section-title">Education</h2>
+
+      <div class="edu-list">
+        <div class="edu-item">
+          <div class="edu-when">2024 – present</div>
+          <div class="edu-what">
+            <h3>B.Sc. in Chemistry</h3>
+            <p>Mawlana Bhashani Science and Technology University, Tangail</p>
+            <p class="edu-detail">CGPA 3.50</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-when">2020 – 2022</div>
+          <div class="edu-what">
+            <h3>HSC — Science</h3>
+            <p>Ghatail Cantonment Public School and College</p>
+            <p class="edu-detail">GPA 5.00</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-when">2015 – 2020</div>
+          <div class="edu-what">
+            <h3>SSC — Science</h3>
+            <p>Valayet Hossain Bahumukhi High School, Delduar, Tangail</p>
+            <p class="edu-detail">GPA 5.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-green">Toolkit</p>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>Computer</h3>
+          <ul class="tag-list">
+            <li>Word</li>
+            <li>Excel</li>
+            <li>PowerPoint</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3>Language</h3>
+          <ul class="tag-list">
+            <li>Bangla — Fluent</li>
+            <li>English — Fluent</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3>Core strengths</h3>
+          <ul class="tag-list">
+            <li>News writing</li>
+            <li>Interviewing</li>
+            <li>Editorial coordination</li>
+            <li>Research</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK / IN THE NEWS ============ -->
+  <section id="work" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow eyebrow-gold">Byline</p>
+      <h2 class="section-title">Selected Work</h2>
+      <p class="work-lede">
+        A few reports and articles I've written or contributed to as a
+        campus correspondent. Click any card to read the full piece —
+        head to the <a href="news.html">News</a> page for the complete list.
+      </p>
+
+      <!--
+        These cards are generated automatically from NEWS_ARTICLES,
+        defined in news-data.js. To add or change an article, edit
+        that file only — this grid (and the full News page) updates
+        to match. Only the first 3 entries are shown here.
+      -->
+      <div class="news-grid" id="workGrid" data-limit="3"></div>
+
+      <noscript>
+        <p>Enable JavaScript to see the latest articles, or visit the
+          <a href="news.html">News page</a> directly.</p>
+      </noscript>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <p class="eyebrow eyebrow-rust">Recognition</p>
+      <h2 class="section-title">Achievements</h2>
+
+      <div class="achievements-grid">
+        <div class="achievement">
+          <p class="achievement-year">2018</p>
+          <h3>Best Short Story Writer</h3>
+          <p>District level</p>
+        </div>
+        <div class="achievement">
+          <p class="achievement-year">2017 – 2019</p>
+          <h3>Best Student in the Upazila</h3>
+          <p>Bangladesh and World History Organization</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOCIAL / CONNECT ============ -->
+  <section id="connect" class="section section-alt social-section">
+    <div class="container">
+      <p class="eyebrow eyebrow-navy">Stay connected</p>
+      <h2 class="section-title">Find Me Online</h2>
+
+      <ul class="social-list">
+        <!-- Demo links — replace href="#" with your real profile URLs -->
+        <li>
+          <a href="#" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M14 9.5h2.5V6.8h-2.5c-2 0-3.3 1.3-3.3 3.3v1.9H8.5v2.8h2.2V19h2.8v-4.2h2.2l.4-2.8h-2.6v-1.6c0-.6.4-.9.9-.9Z" fill="currentColor"/>
+            </svg>
+            <span>Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="4" width="16" height="16" rx="4.5" stroke="currentColor" stroke-width="1.6"/>
+              <circle cx="12" cy="12" r="3.6" stroke="currentColor" stroke-width="1.6"/>
+              <circle cx="16.6" cy="7.4" r="1" fill="currentColor"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M8.2 10.2v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <circle cx="8.2" cy="7.7" r="1" fill="currentColor"/>
+              <path d="M11.6 16.2v-3.4c0-1.2.8-1.9 1.8-1.9 1 0 1.6.7 1.6 1.9v3.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M11.6 12v4.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link" aria-label="Twitter / X" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+            <span>Twitter / X</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:atikmahbubtanjim@gmail.com" class="social-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="6" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M4.5 7 12 13l7.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Email</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section-contact">
+    <div class="container contact-inner">
+      <div>
+        <p class="eyebrow">Say hello</p>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="contact-lede">
+          Open to newsroom collaborations, campus reporting opportunities,
+          and conversations about chemistry, writing, or media. Reach out
+          any time.
+        </p>
+        <ul class="contact-details">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:atikmahbubtanjim@gmail.com">atikmahbubtanjim@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+8801817261122">+880 1817 261122</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send message</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Atik Mahbub Tanjim. All rights reserved.</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="news-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

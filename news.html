@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News &amp; Articles — Atik Mahbub Tanjim</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M9 2h6M10 2v5.2L5.5 16A3 3 0 0 0 8.2 20.5h7.6A3 3 0 0 0 18.5 16L14 7.2V2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7.5 14.5h9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      A. M. Tanjim
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#achievements">Achievements</a>
+      <a href="index.html#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ PAGE HEADER ============ -->
+  <section class="page-header container">
+    <p class="eyebrow eyebrow-gold">Byline archive</p>
+    <h1 class="section-title">News &amp; Articles</h1>
+    <p class="page-header-lede">
+      Every report and article I've written or contributed to as a campus
+      correspondent, in one place. Click any card to read the full piece
+      on the publication's site.
+    </p>
+  </section>
+
+  <!-- ============ FULL NEWS GRID ============ -->
+  <section class="section">
+    <div class="container">
+      <!--
+        This grid is generated from NEWS_ARTICLES in news-data.js.
+        Add a new article there and it will appear here automatically —
+        no need to edit this page. No "data-limit" attribute means every
+        article is shown (unlike the homepage teaser, which shows 3).
+      -->
+      <div class="news-grid" id="newsGrid"></div>
+
+      <noscript>
+        <p>Enable JavaScript to see the list of articles.</p>
+      </noscript>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Atik Mahbub Tanjim. All rights reserved.</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="news-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
