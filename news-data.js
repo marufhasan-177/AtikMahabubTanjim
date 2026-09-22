@@ -96,14 +96,5 @@ window.NEWS_ARTICLES = [
     excerpt: "রোববার (২৬ জুলাই) সকাল ১১টায় বিশ্ববিদ্যালয়ের তৃতীয় একাডেমিক ভবনের ১২তম তলার সেমিনার কক্ষে জুলাই শহীদ দিবস উপলক্ষে আয়োজিত ‘জুলাই গণঅভ্যুত্থান: রাষ্ট্র, গণতন্ত্র ও নাগরিক অধিকার’ শীর্ষক আলোচনা সভায় প্রধান অতিথির বক্তব্যে তিনি এসব কথা বলেন।",
     date: "September 2026",
     tag: "Campus News"
-  },
-  {
-    title: "",
-    source: "",
-    url: "", // TODO: replace with the real article link
-    image: "",
-    excerpt: "",
-    date: "September 2025",
-    tag: "Achievement"
   }
 ];
